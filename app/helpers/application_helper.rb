@@ -10,5 +10,10 @@ module ApplicationHelper
        "#{base_title} | #{@title}"
      end
   end
-  
+
+  # purpose of this block is to define the href of the logo
+  # and make it available as a method in the app
+  def logo
+      logo = image_tag("logo.png", :alt => "Sample App", :class => "round")
+  end
 end
