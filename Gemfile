@@ -6,9 +6,11 @@ gem 'rails', '3.2.2'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'gravatar_image_tag'
 
 group :development do
   gem 'rspec-rails', '2.8.1'
+  gem 'factory_girl_rails'
 end
 
 
